@@ -148,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 out.write(buffer,0,buffer.length);
+                serverMessages.append("Files sent succesfully\n");
                 out.flush();
             } catch (Exception e) {
                 e.printStackTrace();
